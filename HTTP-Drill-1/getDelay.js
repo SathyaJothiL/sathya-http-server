@@ -21,6 +21,6 @@ http.createServer(function(req,res){
     if(err){
         console.log("Error on port",port);
     }else{
-        console.log("Listenin to port",port);       
+        console.log("Listening to port",port);       
     }
 })
